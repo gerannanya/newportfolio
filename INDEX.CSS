@@ -84,7 +84,7 @@ body{
 #planet{position: absolute;
     top: 250px;
     left: 0;
-    width: 100%;
+    width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
