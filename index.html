@@ -43,10 +43,12 @@
        
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
-            var typed = new typed('#element', {
-              strings: ['<Experience', 'Learning','Journey','Platform'],
-              typeSpeed: 50,
-            });
+            window.onload = function() {
+        var typed = new Typed(".element", {
+            strings: ["Hello, world!", "Typed.js is working!"],
+            typeSpeed: 50
+        });
+    };
           </script>
         </body>
     </main>
