@@ -216,4 +216,15 @@ padding: 0;
 .aboutbody{
     background-size: contain;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(10,0,17,1) 0%, rgba(60,19,105,1) 49%, rgba(92,59,121,1) 100%);;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactitems{
+    padding: 20px;
+}
 
